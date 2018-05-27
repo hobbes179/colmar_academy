@@ -3,6 +3,11 @@ html {
   font-size: 16px;
 }
 
+body {
+  max-width: 1820px;
+  margin: 0 auto;
+}
+
 .main-content {
   position: relative;
   top: 4rem; /* To offset for fixed header. */
@@ -120,6 +125,11 @@ header .mobile {
   }
 }
 
+@media only screen and (min-width: 1820px) {
+  header {
+    width: 1820px;
+  }
+}
 /*--------------------------------Banner--------------------------------------*/
 #banner {
   background-color: #DFDDDD;
